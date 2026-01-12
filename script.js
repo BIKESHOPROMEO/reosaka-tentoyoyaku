@@ -54,7 +54,7 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
 
     const confirmed = window.confirm('登録が完了しました。\nカレンダー画面に戻りますか？');
     if (confirmed) {
-      window.location.href = 'https://calendar-ui-three.vercel.app/';
+      window.location.href = 'https://reosaka-calendar-ui.vercel.app/';
     }
 
     resultEl.style.color = 'green';
